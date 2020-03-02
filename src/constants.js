@@ -14,6 +14,8 @@ exports.DEFAULT_VUE_GETTEXT_FUNCTIONS = {
   '$ngettext': ['msgid', 'plural', null],
   '$pgettext': ['msgctxt', 'msgid'],
   '$npgettext': ['msgctxt', 'msgid', 'plural', null],
+  '$igettext': ['msgid'],
+  '$nigettext': ['msgid', 'plural'],
 };
 
 exports.DEFAULT_START_DELIMITER = '{{';
